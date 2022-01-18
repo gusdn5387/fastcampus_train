@@ -17,6 +17,10 @@
 		51DFD2CB27950D3F00B764D0 /* TrainTimeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DFD2CA27950D3F00B764D0 /* TrainTimeUITestsLaunchTests.swift */; };
 		51DFD2D9279512F100B764D0 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 51DFD2D8279512F100B764D0 /* SnapKit */; };
 		51DFD2DC279512FF00B764D0 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 51DFD2DB279512FF00B764D0 /* Alamofire */; };
+		51DFD2DF2796963E00B764D0 /* StationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DFD2DE2796963E00B764D0 /* StationDetailViewController.swift */; };
+		51DFD2E12796988100B764D0 /* StationDetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DFD2E02796988100B764D0 /* StationDetailCollectionViewCell.swift */; };
+		51DFD2E327969C6300B764D0 /* StationResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DFD2E227969C6300B764D0 /* StationResponseModel.swift */; };
+		51DFD2E52796A18C00B764D0 /* StationArrivalDataResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DFD2E42796A18C00B764D0 /* StationArrivalDataResponseModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		51DFD2C427950D3F00B764D0 /* TrainTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrainTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51DFD2C827950D3F00B764D0 /* TrainTimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainTimeUITests.swift; sourceTree = "<group>"; };
 		51DFD2CA27950D3F00B764D0 /* TrainTimeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainTimeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		51DFD2DE2796963E00B764D0 /* StationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationDetailViewController.swift; sourceTree = "<group>"; };
+		51DFD2E02796988100B764D0 /* StationDetailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationDetailCollectionViewCell.swift; sourceTree = "<group>"; };
+		51DFD2E227969C6300B764D0 /* StationResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationResponseModel.swift; sourceTree = "<group>"; };
+		51DFD2E42796A18C00B764D0 /* StationArrivalDataResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationArrivalDataResponseModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +111,12 @@
 			children = (
 				51DFD2A727950D3B00B764D0 /* AppDelegate.swift */,
 				51DFD2A927950D3B00B764D0 /* SceneDelegate.swift */,
-				51DFD2AB27950D3B00B764D0 /* StationSearchViewController.swift */,
+				51DFD2DD2796961500B764D0 /* Scenes */,
 				51DFD2B027950D3E00B764D0 /* Assets.xcassets */,
 				51DFD2B227950D3E00B764D0 /* LaunchScreen.storyboard */,
 				51DFD2B527950D3E00B764D0 /* Info.plist */,
+				51DFD2E227969C6300B764D0 /* StationResponseModel.swift */,
+				51DFD2E42796A18C00B764D0 /* StationArrivalDataResponseModel.swift */,
 			);
 			path = TrainTime;
 			sourceTree = "<group>";
@@ -126,6 +136,16 @@
 				51DFD2CA27950D3F00B764D0 /* TrainTimeUITestsLaunchTests.swift */,
 			);
 			path = TrainTimeUITests;
+			sourceTree = "<group>";
+		};
+		51DFD2DD2796961500B764D0 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				51DFD2AB27950D3B00B764D0 /* StationSearchViewController.swift */,
+				51DFD2DE2796963E00B764D0 /* StationDetailViewController.swift */,
+				51DFD2E02796988100B764D0 /* StationDetailCollectionViewCell.swift */,
+			);
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,8 +286,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51DFD2DF2796963E00B764D0 /* StationDetailViewController.swift in Sources */,
+				51DFD2E327969C6300B764D0 /* StationResponseModel.swift in Sources */,
 				51DFD2AC27950D3B00B764D0 /* StationSearchViewController.swift in Sources */,
+				51DFD2E52796A18C00B764D0 /* StationArrivalDataResponseModel.swift in Sources */,
 				51DFD2A827950D3B00B764D0 /* AppDelegate.swift in Sources */,
+				51DFD2E12796988100B764D0 /* StationDetailCollectionViewCell.swift in Sources */,
 				51DFD2AA27950D3B00B764D0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
